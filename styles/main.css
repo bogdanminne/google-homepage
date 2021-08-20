@@ -4,15 +4,15 @@
 }
 
 .searchbar {
-    width: auto;
-    display: flex;
+    width: 584px;
     max-width: 584px;
+    position: relative;
     margin: 0 auto;
 }
 
 .searchbar input {
-    display: flex;
-    margin: 0 auto;
+    text-align: center;
+    outline: none;
     padding: 5px 8px 0px 14px;
     width: 560px;
     height: 39px;
@@ -22,21 +22,12 @@
     
 }
 
-.searchbar div {
-    display: flex;
-    position: relative;
-   
-    
+.search {
+    position: absolute;
+    left: 0;
 }
 
-.searchbar .search {
-    display: flex;
-    z-index: 1;
+.mic {
     position: absolute;
-}
-
-.searchbar .mic {
-    display: flex;
-    z-index: 1;
-    position: absolute;
+    right:0;
 }
