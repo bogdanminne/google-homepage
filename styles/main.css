@@ -23,6 +23,7 @@
     max-width: 584px;
     position: relative;
     margin: 20px auto;
+    opacity: 70%;
 }
 
 .searchbar input {
@@ -41,12 +42,14 @@
     position: absolute;
     left: 8px;
     top:25%;
+    
 }
 
 .mic {
     position: absolute;
     right:8px;
     top: 25%;
+    
 }
 
 ul {
@@ -54,6 +57,7 @@ ul {
     margin: 0;
     height: 48px;
     padding: 6px;
+    opacity: 80%;
 }
 
 li {
@@ -66,4 +70,69 @@ a {
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
+}
+
+.buttons {
+    width: 0 auto;
+    text-align: center;
+    
+}
+
+.buttons input {
+    background-color:#f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color:#3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+}
+
+.buttons input:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color:#f8f9fa;
+    border: 1px solid #dadce0;
+    color: #212124;
+}
+
+p {
+    font-size: 13px;
+    text-align: center;
+}
+
+p a {
+    color: blue;
+}
+
+.whitespace2 {
+    height: 200px;
+}
+
+
+.Country {
+    display: block;
+    border-bottom: 1px solid #dadce0;
+    background-color:#f2f2f2;
+}
+.Country p {
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+    padding: 10px 25px;
+    color: rgba(0,0,0,.54);
+}
+
+.Footer {
+    background-color:#f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Footer li {
+    float: left;
+    padding: 20px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
 }
